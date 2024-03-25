@@ -1,5 +1,8 @@
 import os,re
 
+# 드라마 대본 실습
+
+
 f = open('friends101.txt', 'r', encoding='utf8')
 script101 = f.read()
 
