@@ -1,6 +1,9 @@
 import os
 import re
 
+
+# 정규표현식 실습
+
 def refinder(pattern, script):    
     if re.match(pattern, script):     #Match 메서드는 문자열의 처음 부분만 비교 검색
         print('Match!')
